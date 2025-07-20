@@ -65,6 +65,7 @@ function App() {
 
       <textarea 
         ref={editorRef}
+        placeholder='start typing and press Enter for next line'
         value={text}
         onChange={(e)=> setText(e.target.value)}
         onScroll={(handleScroll)}
